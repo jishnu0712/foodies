@@ -1,6 +1,6 @@
 export default function mealsInfo({params}) {
 
     return <>
-        <h1>{params.slug}</h1>
+        <h1>{params.mealSlug}</h1>
     </>
 }
